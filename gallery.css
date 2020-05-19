@@ -1,0 +1,91 @@
+/*.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  grid-gap: 1rem;
+}
+
+.grid > div{
+  background: #EDE7F6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
+
+div {
+ border: 5px solid white;
+ background-color:grey;
+ color: white;
+ text-align: center;
+ }
+
+button{
+  color: lime;
+  font-size: 18px;
+  background-color: black;
+};
+
+input{
+  font-size: 18px;
+  height: 20px;
+}
+*/
+
+body{
+  font-size: 18px;
+  background-color: white;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* repeat(auto, minmax(100px, 1fr));*/
+  grid-template-rows: auto auto auto;
+  grid-gap: 5px;
+  color: white;
+}
+
+.box{
+  padding: 20px;
+  border-radius: 0.5rem;
+  background-color: grey;
+}
+
+.a{
+  grid-column: 1/span 3;
+  grid-row: 1;
+  text-align: center;
+  text-size:
+}
+
+.b{
+  grid-column: 1/span 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.c{
+  grid-column: 3/4;
+  grid-row: 2;
+  text-align: center;
+}
+
+button{
+  color: lime;
+  font-size: 18px;
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+input{
+  font-size: 18px;
+  height: 20px;
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
