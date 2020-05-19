@@ -78,6 +78,7 @@ button{
   font-size: 18px;
   background-color: black;
   border-radius: 0.5rem;
+  border: 1px solid #cccccc;
 }
 
 input{
@@ -88,4 +89,5 @@ input{
 img {
   width: 40%;
   height: auto;
+  border-radius: 50px;
 }

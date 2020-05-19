@@ -1,4 +1,4 @@
-## Flickr Image app Learning Outcomes
+## Flickr Image app: Learning Objectives
 - CSS grid property
 - ES6: forEach, for..in, for..of;
 - Create a testing server using NodeJS and Express;
